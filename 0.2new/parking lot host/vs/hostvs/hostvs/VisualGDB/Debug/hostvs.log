@@ -1,0 +1,1043 @@
+﻿C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/misc.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/misc.c share the same object file name (VisualGDB/Debug/misc.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_adc.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_adc.c share the same object file name (VisualGDB/Debug/stm32f2xx_adc.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_can.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_can.c share the same object file name (VisualGDB/Debug/stm32f2xx_can.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_crc.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_crc.c share the same object file name (VisualGDB/Debug/stm32f2xx_crc.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp.c share the same object file name (VisualGDB/Debug/stm32f2xx_cryp.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp_aes.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp_aes.c share the same object file name (VisualGDB/Debug/stm32f2xx_cryp_aes.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp_des.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp_des.c share the same object file name (VisualGDB/Debug/stm32f2xx_cryp_des.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp_tdes.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_cryp_tdes.c share the same object file name (VisualGDB/Debug/stm32f2xx_cryp_tdes.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dac.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dac.c share the same object file name (VisualGDB/Debug/stm32f2xx_dac.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dbgmcu.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dbgmcu.c share the same object file name (VisualGDB/Debug/stm32f2xx_dbgmcu.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dcmi.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dcmi.c share the same object file name (VisualGDB/Debug/stm32f2xx_dcmi.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dma.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dma.c share the same object file name (VisualGDB/Debug/stm32f2xx_dma.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_exti.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_exti.c share the same object file name (VisualGDB/Debug/stm32f2xx_exti.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_flash.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_flash.c share the same object file name (VisualGDB/Debug/stm32f2xx_flash.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_fsmc.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_fsmc.c share the same object file name (VisualGDB/Debug/stm32f2xx_fsmc.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_gpio.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_gpio.c share the same object file name (VisualGDB/Debug/stm32f2xx_gpio.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_hash.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_hash.c share the same object file name (VisualGDB/Debug/stm32f2xx_hash.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_hash_md5.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_hash_md5.c share the same object file name (VisualGDB/Debug/stm32f2xx_hash_md5.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_hash_sha1.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_hash_sha1.c share the same object file name (VisualGDB/Debug/stm32f2xx_hash_sha1.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_i2c.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_i2c.c share the same object file name (VisualGDB/Debug/stm32f2xx_i2c.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_iwdg.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_iwdg.c share the same object file name (VisualGDB/Debug/stm32f2xx_iwdg.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_pwr.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_pwr.c share the same object file name (VisualGDB/Debug/stm32f2xx_pwr.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rcc.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rcc.c share the same object file name (VisualGDB/Debug/stm32f2xx_rcc.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rng.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rng.c share the same object file name (VisualGDB/Debug/stm32f2xx_rng.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rtc.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rtc.c share the same object file name (VisualGDB/Debug/stm32f2xx_rtc.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_sdio.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_sdio.c share the same object file name (VisualGDB/Debug/stm32f2xx_sdio.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_spi.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_spi.c share the same object file name (VisualGDB/Debug/stm32f2xx_spi.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_syscfg.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_syscfg.c share the same object file name (VisualGDB/Debug/stm32f2xx_syscfg.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_tim.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_tim.c share the same object file name (VisualGDB/Debug/stm32f2xx_tim.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c share the same object file name (VisualGDB/Debug/stm32f2xx_usart.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\gcc.targets(85,5): warning : G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/lib/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_wwdg.c and C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_wwdg.c share the same object file name (VisualGDB/Debug/stm32f2xx_wwdg.o). This will result in link-time errors. Please rename the files or change the object file names for them.
+  main_application.cpp
+  param_manager.cpp
+  misc.c
+  stm32f2xx_adc.c
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\main_application.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\main_application.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\main_application.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\vm_model\VersionManager.h(14):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\param_manager.h(10):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\param_manager.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\vm_model\VersionManager.h(14):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\param_manager.h(10):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\param_manager.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\vm_model\VersionManager.h(14):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\param_manager.h(10):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\main_model\param_manager.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\misc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\misc.c(70):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\misc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\misc.c(70):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\misc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\misc.c(70):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_adc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_adc.c(98):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_adc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_adc.c(98):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_adc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_adc.c(98):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_can.c
+  stm32f2xx_crc.c
+  stm32f2xx_cryp.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_can.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_can.c(80):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_can.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_can.c(80):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_can.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_can.c(80):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_crc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_crc.c(23):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_crc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_crc.c(23):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_crc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_crc.c(23):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp.c(159):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  stm32f2xx_cryp_aes.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp.c(159):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp.c(159):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_cryp_des.c
+  stm32f2xx_cryp_tdes.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_aes.c(46):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_aes.c(46):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_aes.c(46):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_dac.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_des.c(43):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_des.c(43):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_des.c(43):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_dbgmcu.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_tdes.c(43):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_tdes.c(43):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_tdes.c(43):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_dcmi.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dac.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dac.c(118):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dac.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dac.c(118):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dac.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dac.c(118):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_dma.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dbgmcu.c(23):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dbgmcu.c(23):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dbgmcu.c(23):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_exti.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dcmi.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dcmi.c(82):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dcmi.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dcmi.c(82):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dcmi.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dcmi.c(82):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_flash.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dma.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dma.c(116):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dma.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dma.c(116):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dma.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dma.c(116):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_fsmc.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_exti.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_exti.c(61):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_flash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_flash.c(70):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_exti.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_exti.c(61):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_exti.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_exti.c(61):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_flash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_flash.c(70):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_flash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_flash.c(70):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_gpio.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_fsmc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_fsmc.c(30):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_fsmc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_fsmc.c(30):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_fsmc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_fsmc.c(30):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_hash.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c(79):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  stm32f2xx_hash_md5.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c(79):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c(79):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash.c(123):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  stm32f2xx_hash_sha1.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash.c(123):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash.c(123):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_i2c.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_md5.c(41):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_md5.c(41):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_md5.c(41):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_iwdg.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_sha1.c(41):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_i2c.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_i2c.c(87):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_sha1.c(41):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_sha1.c(41):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_i2c.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_i2c.c(87):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_i2c.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_i2c.c(87):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_pwr.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_iwdg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_iwdg.c(82):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_iwdg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_iwdg.c(82):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_iwdg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_iwdg.c(82):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_rcc.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_pwr.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_pwr.c(32):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  stm32f2xx_rng.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_pwr.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_pwr.c(32):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_pwr.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_pwr.c(32):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_rtc.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c(56):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c(56):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h(37):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c(56):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_sdio.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rng.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rng.c(51):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rng.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rng.c(51):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rng.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rng.c(51):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rtc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rtc.c(258):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rtc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rtc.c(258):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rtc.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rtc.c(258):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_spi.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_sdio.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_sdio.c(149):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  stm32f2xx_syscfg.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_sdio.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_sdio.c(149):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_sdio.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_sdio.c(149):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  stm32f2xx_tim.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_spi.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_spi.c(110):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_spi.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_spi.c(110):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_spi.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_spi.c(110):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_syscfg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_syscfg.c(43):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  stm32f2xx_usart.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_syscfg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_syscfg.c(43):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_syscfg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_syscfg.c(43):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c(114):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  stm32f2xx_wwdg.c
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c(114):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c(114):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  ManufacturerFrame.cpp
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c(85):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c(85):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c(85):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c(80):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c(80):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h(38):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\lib\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c(80):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  operationreport_manager.cpp
+  operationspec_manager.cpp
+  operationspec_execute_base.cpp
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  ..\..\..\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\general_model\ManufacturerFrame.cpp(7):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  ..\..\..\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\general_model\ManufacturerFrame.cpp(7):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  ..\..\..\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\general_model\ManufacturerFrame.cpp(7):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationreport_manager.h(8):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationreport_manager.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationreport_manager.h(8):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationreport_manager.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationreport_manager.h(8):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationreport_manager.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  ..\..\..\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_manager.cpp(3):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  ..\..\..\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_manager.cpp(3):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  ..\..\..\Src\usr\operation_model\OpspecResult.h(7):
+  ..\..\..\Src\usr\operation_model\tag_selectaccessresult.h(9):
+  ..\..\..\Src\usr\operation_model\operationreport_manager.h(8):
+  ..\..\..\Src\usr\operation_model\operation_process.h(8):
+  ..\..\..\Src\usr\main_model\main_application.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_manager.cpp(3):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  rf_oper_base.cpp
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  Rf_Oper_gb.cpp
+  operationspec_execute_hb.cpp
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  Rf_Oper_hb.cpp
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OperationSpec_Execute_HB.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_hb.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OperationSpec_Execute_HB.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_hb.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OpspecResult.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_base.h(9):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\OperationSpec_Execute_HB.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\operationspec_execute_hb.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_hb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_hb.cpp(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_hb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_hb.cpp(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\vector(64):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectspec.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_vector.h: In member function 'void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = long long unsigned int; _Alloc = std::allocator<long long unsigned int>]':
+  ..\..\..\Src\usr\hw_model\gpio.h(5):
+  ..\..\..\Src\usr\hw_model\IOCtrl.h(12):
+  ..\..\..\Src\usr\hw_model\MCUToSecureComm.h(17):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_hb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_hb.cpp(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_vector.h(948,21): note :  parameter passing for argument of type '__gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >' changed in GCC 7.1
+      _M_realloc_insert(end(), __x);
+      ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\vector(69):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectspec.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\vector.tcc: In member function 'void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const long long unsigned int&}; _Tp = long long unsigned int; _Alloc = std::allocator<long long unsigned int>]':
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\vector.tcc(394,7): note :  parameter passing for argument of type 'std::vector<long long unsigned int>::iterator {aka __gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >}' changed in GCC 7.1
+         vector<_Tp, _Alloc>::
+         ^~~~~~~~~~~~~~~~~~~
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\vector(63):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectspec.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h: In function '_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = long long unsigned int*; _ForwardIterator = long long unsigned int*; _Allocator = std::allocator<long long unsigned int>]':
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(312,69): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+     _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc);
+                                                                       ^
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h: In function '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<long long unsigned int*>; _ForwardIterator = long long unsigned int*; _Tp = long long unsigned int]':
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(287,5): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+       __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+       ^~~~~~~~~~~~~~~~~~~~~~
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(287,5): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(289,63): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+       { return std::uninitialized_copy(__first, __last, __result); }
+                                                                 ^
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h: In function '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<long long unsigned int*>; _ForwardIterator = long long unsigned int*]':
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(115,5): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+       uninitialized_copy(_InputIterator __first, _InputIterator __last,
+       ^~~~~~~~~~~~~~~~~~
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(115,5): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(134,41): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+    __uninit_copy(__first, __last, __result);
+                                           ^
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h: In static member function 'static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<long long unsigned int*>; _ForwardIterator = long long unsigned int*]':
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(99,9): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+           __uninit_copy(_InputIterator __first, _InputIterator __last,
+           ^~~~~~~~~~~~~
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(99,9): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_uninitialized.h(101,53): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+           { return std::copy(__first, __last, __result); }
+                                                       ^
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\list(60):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectspec.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_algobase.h: In function '_OI std::copy(_II, _II, _OI) [with _II = std::move_iterator<long long unsigned int*>; _OI = long long unsigned int*]':
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_algobase.h(446,5): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+       copy(_II __first, _II __last, _OI __result)
+       ^~~~
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_algobase.h(446,5): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_algobase.h(67):
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\list(60):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\tag_selectspec.h(11):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\rf_oper_base.h(7):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\operation_model\Rf_Oper_gb.cpp(1):
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_iterator.h: In function 'decltype (std::__miter_base(__it.base())) std::__miter_base(std::move_iterator<_IteratorL>) [with _Iterator = long long unsigned int*]':
+  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\stl_iterator.h(1241,5): note :  parameter passing for argument of type 'std::move_iterator<long long unsigned int*>' changed in GCC 7.1
+       __miter_base(move_iterator<_Iterator> __it)
+       ^~~~~~~~~~~~
+  IOCtrl.cpp
+  key_exit.c
+  adc_dac.c
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\gpio.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\IOCtrl.cpp(8):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\gpio.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\IOCtrl.cpp(8):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\gpio.h(5):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\IOCtrl.h(12):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\IOCtrl.cpp(8):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\key_exit.h(3):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\key_exit.c(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\key_exit.h(3):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\key_exit.c(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\key_exit.h(3):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\key_exit.c(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\key_exit.c(4):
+..\..\..\Src\usr\main_model\main_application.h(4,10): error :  deque: No such file or directory
+   #include "deque"
+            ^~~~~~~
+  compilation terminated.
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\adc_dac.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\adc_dac.c(1):
+C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(63): warning :  "USE_STDPERIPH_DRIVER" redefined
+   #define  USE_STDPERIPH_DRIVER
+   
+  <command-line>(0): note :  this is the location of the previous definition
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(6928):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\adc_dac.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\adc_dac.c(1):
+..\..\..\Src\usr\stm32f2xx_conf.h(83): warning :  "assert_param" redefined
+     #define assert_param(expr) ((void)0)
+   
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\adc_dac.h(4):
+  G:\tingchechangcode\workspace\20181103v13\newCommVersionhost1\Src\usr\hw_model\adc_dac.c(1):
+  C:\Users\28548\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F2xxxx\CMSIS_StdPeriph\Device\ST\STM32F2xx\Include\stm32f2xx.h(57): note :  this is the location of the previous definition
+   #define assert_param(expr)
+   

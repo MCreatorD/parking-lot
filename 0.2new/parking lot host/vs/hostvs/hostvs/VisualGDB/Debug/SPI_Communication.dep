@@ -1,0 +1,212 @@
+VisualGDB/Debug/SPI_Communication.o: \
+ G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/SPI_Communication.cpp \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_locale.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\string.h \
+ G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/SPI_Communication.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h \
+ G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/sim_spi.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Device/ST/STM32F2xx/Include/stm32f2xx.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Include/core_cm3.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Include/core_cmInstr.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Include/core_cmFunc.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Device/ST/STM32F2xx/Include/system_stm32f2xx.h \
+ ../../../Src/usr/stm32f2xx_conf.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h \
+ C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/misc.h \
+ G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/sim_spi1.h \
+ G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/spi.h
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_locale.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\string.h:
+
+G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/SPI_Communication.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h:
+
+G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/sim_spi.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Device/ST/STM32F2xx/Include/stm32f2xx.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Include/core_cm3.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Include/core_cmInstr.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Include/core_cmFunc.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/CMSIS_StdPeriph/Device/ST/STM32F2xx/Include/system_stm32f2xx.h:
+
+../../../Src/usr/stm32f2xx_conf.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h:
+
+C:/Users/28548/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F2xxxx/STM32F2xx_StdPeriph_Driver/inc/misc.h:
+
+G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/sim_spi1.h:
+
+G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/hw_model/spi.h:

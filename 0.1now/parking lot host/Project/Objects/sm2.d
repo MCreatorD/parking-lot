@@ -1,0 +1,9 @@
+.\objects\sm2.o: ..\Src\lib\libsm2\sm2.c
+.\objects\sm2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\sm2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\sm2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\sm2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\sm2.o: ..\Src\lib\libsm2\sm2.h
+.\objects\sm2.o: ..\Src\lib\libsm2\miracl.h
+.\objects\sm2.o: ..\Src\lib\libsm2\mirdef.h
+.\objects\sm2.o: ..\Src\lib\libsm2\sm3.h

@@ -1,0 +1,5 @@
+﻿  main.c
+  Linking ../VisualGDB/Debug/uart_update...
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 11KB out of 1024KB (1%)
+  Used SRAM: 5468 bytes out of 128KB (4%)

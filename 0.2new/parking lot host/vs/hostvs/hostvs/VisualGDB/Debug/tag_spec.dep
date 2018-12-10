@@ -1,0 +1,8 @@
+VisualGDB/Debug/tag_spec.o: \
+ G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/operation_model/tag_spec.cpp \
+ G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/operation_model/tag_spec.h \
+ ../../../Src/usr/general_model/class_retain.h
+
+G:/tingchechangcode/workspace/20181103v13/newCommVersionhost1/Src/usr/operation_model/tag_spec.h:
+
+../../../Src/usr/general_model/class_retain.h:

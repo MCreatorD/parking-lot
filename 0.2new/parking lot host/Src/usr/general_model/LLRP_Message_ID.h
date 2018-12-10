@@ -1,0 +1,77 @@
+#ifndef __LLRP_MESSAGE_ID_H__
+#define __LLRP_MESSAGE_ID_H__
+
+#define Keepalive 300
+#define KeepaliveAck 301
+#define DeviceEventNotification 302
+#define GetDeviceCapabilities 350
+#define GetDeviceCapabilitiesAck 351
+#define AddSelectSpec 400
+#define AddSelectSpecAck 401
+#define DeleteSelectSpec 402
+#define DeleteSelectSpecAck 403
+#define StartSelectSpec 404
+#define StartSelectSpecAck 405
+#define StopSelectSpec 406
+#define StopSelectSpecAck 407
+#define EnableSelectSpec 408
+#define EnableSelectSpecAck 409
+#define DisableSelectSpec 410
+#define DisableSelectSpecAck 411
+#define GetSelectSpec 412
+#define GetSelectSpecAck 413
+#define AddAccessSpec 450
+#define AddAccessSpecAck 451
+#define DeleteAccessSpec 452
+#define DeleteAccessSpecAck 453
+#define EnableAccessSpec 454
+#define EnableAccessSpecAck 455
+#define DisableAccessSpec 456
+#define DisableAccessSpecAck 457
+#define GetAccessSpec 458
+#define GetAccessSpecAck 459
+#define TagSelectAccessReport 500
+#define ClientRequestOp    590
+#define ClientRequestOpAck 591
+#define DeviceBinding 600
+#define DeviceBindingAck 601
+#define DeviceCertificateConfig 602
+#define DeviceCertificateConfigAck 603
+#define DeviceBindingResultNotification 604
+#define UploadTagLog 620
+#define UploadTagLogAck 621
+#define ClearTagLog 622
+#define ClearTagLogAck 623
+#define TagLogCount 624
+#define TagLogCountAck 625
+#define UploadTagLogConfirm 626
+#define UploadDeviceLog 640
+#define UploadDeviceLogAck 641
+#define ClearDeviceLog 642
+#define ClearDeviceLogAck 643
+#define DeviceLogCount 644
+#define DeviceLogCountAck 645
+#define UploadDeviceLogConfirm 646
+#define GetDeviceConfig 660
+#define GetDeviceConfigAck 661
+#define SetDeviceConfig 662
+#define SetDeviceConfigAck 663
+#define GetVersion 700
+#define GetVersionAck 701
+#define SetVersion 702
+#define SetVersionAck 703
+#define ActiveVersion 704
+#define ActiveVersionAck 705
+#define UnActiveVersion 706
+#define UnActiveVersionAck 707
+#define AlarmReport 720
+#define AlarmRestore 721
+#define AlarmDelete 722
+#define AlarmSync 723
+#define DiagnosticTest 740
+#define DiagnosticTestAck 741
+#define ResetDevice 760
+#define ResetDeviceAck 761
+
+
+#endif

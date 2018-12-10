@@ -1,0 +1,19 @@
+void rs_485_send(unsigned int temp)
+{
+	RS485_TX_H;
+	RS485_RX_H;
+	//1 .·¢
+	CommUSARTx_SendData((unsigned char*)&temp,1);	
+}
+
+int rs_485_recive()
+{
+	int temp = 0xff;
+	RS485_TX_L; //DE
+	RS485_RX_L; //REn
+	if(Comm_USART_RX_STA == 1)
+	{
+		temp = Comm_USART_RX_BUF[0];
+	}
+    return 	temp;
+}

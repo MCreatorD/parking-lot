@@ -1,0 +1,116 @@
+VisualGDB/Debug/system_stm32f2xx.o: \
+ G:/tingchechangcode/workspace/Uart_update_HostV2.0/Uart_update_Host/ST_Lib/CMSIS/CM3/DeviceSupport/ST/STM32F2xx/system_stm32f2xx.c \
+ G:/tingchechangcode/workspace/Uart_update_HostV2.0/Uart_update_Host/ST_Lib/CMSIS/CM3/DeviceSupport/ST/STM32F2xx/stm32f2xx.h \
+ ../../../ST_Lib/CMSIS/CM3/CoreSupport/core_cm3.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h \
+ G:/tingchechangcode/workspace/Uart_update_HostV2.0/Uart_update_Host/ST_Lib/CMSIS/CM3/DeviceSupport/ST/STM32F2xx/system_stm32f2xx.h \
+ ../../../User_Code/User/stm32f2xx_conf.h\  \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h \
+ ../../../ST_Lib/CMSIS/CM3/DeviceSupport/ST/STM32F2xx/stm32f2xx.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h \
+ ../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/misc.h
+
+G:/tingchechangcode/workspace/Uart_update_HostV2.0/Uart_update_Host/ST_Lib/CMSIS/CM3/DeviceSupport/ST/STM32F2xx/stm32f2xx.h:
+
+../../../ST_Lib/CMSIS/CM3/CoreSupport/core_cm3.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h:
+
+c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h:
+
+G:/tingchechangcode/workspace/Uart_update_HostV2.0/Uart_update_Host/ST_Lib/CMSIS/CM3/DeviceSupport/ST/STM32F2xx/system_stm32f2xx.h:
+
+../../../User_Code/User/stm32f2xx_conf.h\ :
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h:
+
+../../../ST_Lib/CMSIS/CM3/DeviceSupport/ST/STM32F2xx/stm32f2xx.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h:
+
+../../../ST_Lib/STM32F2xx_StdPeriph_Driver/inc/misc.h:

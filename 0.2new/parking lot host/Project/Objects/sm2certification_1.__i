@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork --split_sections -I ..\Src\lib\STM32F2xx_StdPeriph_Driver\inc -I ..\Src\lib\CMSIS\Device\ST\STM32F2xx\Include -I ..\Src\_Common -I ..\Src\lib\CMSIS\CM3\CoreSupport -I ..\Src\lib\CMSIS\CM3\DeviceSupport\ST\STM32F2xx -I ..\Src\usr -I ..\Src\lib\libltkcpp -I ..\Src\usr\comm_model -I ..\Src\usr\general_model -I ..\Src\usr\operation_model -I ..\Src\usr\hw_model -I ..\Src\usr\main_model -I ..\Src\lib\libsm2 -I ..\Src\usr\certification_model -I ..\Src\usr\extendllrp -I ..\Src\usr\vm_model -I ..\Src\usr\rf_model -I ..\Src\usr\hw_model -I ..\Src\usr\GUI_Model -I ..\Src\usr\Text_Lib -I ..\Src\usr\Air_interface -I ..\Src\usr\Air_Board
+-I.\RTE\_stm32
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F2xx_DFP\2.8.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSTM32F205xx -DSTM32F2XX -DUSE_STDPERIPH_DRIVER -DWang_5_10
+-o .\objects\sm2certification_1.o --omf_browse .\objects\sm2certification_1.crf --depend .\objects\sm2certification_1.d "..\Src\usr\Air_Board\Sm2Certification.c"

@@ -1,0 +1,427 @@
+#ifndef __BOARD_H
+#define __BOARD_H
+#include "stm32f2xx.h"
+
+#ifdef __cplusplus
+ extern "C" {
+#endif
+//#define CONFINGG 1
+
+#ifndef CONFINGG
+#define OpenUART4
+#define OpenSPI2
+#define Open207_TOUTH_SPI2
+#define OpenI2C1
+#endif
+
+typedef struct
+{
+    unsigned int Wiegand_Output_Timeticks;
+    unsigned int Trigger_Check_Timeticks;
+    unsigned int Trigger_Off_Delay_Timeticks;
+    unsigned int Beep_Delayed_Off_Timeticks;
+} Timing_Events;
+
+//typedef struct
+//{
+//    unsigned int Wiegand_Output_Timeticks;
+//    unsigned int Trigger_Check_Timeticks;
+//    unsigned int Trigger_Off_Delay_Timeticks;
+//    unsigned int Beep_Delayed_Off_Timeticks;
+//} Timing_Events;
+#define CAT1025     0xA0
+//#define AD_DA_REF    2960
+//#define PA_POWER     2960
+
+#define Freq_Channel_1   0
+#define Freq_Channel_2   1
+#define Freq_Channel_3   2
+#define Freq_Channel_4   3
+#define Freq_Channel_5   4
+#define Freq_Channel_6   5
+#define Freq_Channel_7   6
+#define Freq_Channel_8   7
+#define Freq_Channel_9   8
+#define Freq_Channel_10  9
+#define Freq_Channel_11  10
+#define Freq_Channel_12  11
+#define Freq_Channel_13  12
+#define Freq_Channel_14  13
+#define Freq_Channel_15  14
+#define Freq_Channel_16  15
+#define Freq_Channel_17  16
+#define Freq_Channel_18  17
+#define Freq_Channel_19  18
+#define Freq_Channel_20  19
+
+//#define SPIx                           SPI1
+//#define SPIx_CLK                       RCC_APB2Periph_SPI1
+//#define SPIx_CLK_INIT                  RCC_APB2PeriphClockCmd
+//#define SPIx_IRQn                      SPI1_IRQn
+//#define SPIx_IRQHANDLER                SPI1_IRQHandler
+//#define SPIx_SCK_PIN                   GPIO_Pin_3
+//#define SPIx_SCK_GPIO_PORT             GPIOB
+//#define SPIx_SCK_GPIO_CLK              RCC_AHB1Periph_GPIOB
+//#define SPIx_SCK_SOURCE                GPIO_PinSource3
+//#define SPIx_SCK_AF                    GPIO_AF_SPI1
+//#define SPIx_MISO_PIN                  GPIO_Pin_4
+//#define SPIx_MISO_GPIO_PORT            GPIOB
+//#define SPIx_MISO_GPIO_CLK             RCC_AHB1Periph_GPIOB
+//#define SPIx_MISO_SOURCE               GPIO_PinSource4
+//#define SPIx_MISO_AF                   GPIO_AF_SPI1
+//#define SPIx_MOSI_PIN                  GPIO_Pin_5
+//#define SPIx_MOSI_GPIO_PORT            GPIOB
+//#define SPIx_MOSI_GPIO_CLK             RCC_AHB1Periph_GPIOB
+//#define SPIx_MOSI_SOURCE               GPIO_PinSource5
+//#define SPIx_MOSI_AF                   GPIO_AF_SPI1
+//#define SPIx_NSS_PIN                   GPIO_Pin_15
+//#define SPIx_NSS_GPIO_PORT             GPIOA
+//#define SPIx_NSS_GPIO_CLK              RCC_AHB1Periph_GPIOA
+//#define SPIx_NSS_SOURCE                GPIO_PinSource15
+//#define SPIx_NSS_AF                    GPIO_AF_SPI1
+//#define SPI1_DMA                      DMA2
+//#define SPI1_DMA_CHANNEL              DMA_Channel_3
+//#define SPI1_DR_ADDRESS               ((uint32_t)0x4001300C)
+//#define SPI1_DMA_STREAM_TX            DMA2_Stream3
+//#define SPI1_DMA_STREAM_RX            DMA2_Stream0
+//#define SPI1_TX_DMA_TCFLAG            DMA_FLAG_TCIF3
+//#define SPI1_TX_DMA_FEIFLAG           DMA_FLAG_FEIF3
+//#define SPI1_TX_DMA_DMEIFLAG          DMA_FLAG_DMEIF3
+//#define SPI1_TX_DMA_TEIFLAG           DMA_FLAG_TEIF3
+//#define SPI1_TX_DMA_HTIFLAG           DMA_FLAG_HTIF3
+//#define SPI1_RX_DMA_TCFLAG            DMA_FLAG_TCIF0
+//#define SPI1_RX_DMA_FEIFLAG           DMA_FLAG_FEIF0
+//#define SPI1_RX_DMA_DMEIFLAG          DMA_FLAG_DMEIF0
+//#define SPI1_RX_DMA_TEIFLAG           DMA_FLAG_TEIF0
+//#define SPI1_RX_DMA_HTIFLAG           DMA_FLAG_HTIF0
+//#define DMAx_CLK                      RCC_AHB1Periph_DMA2
+//#define Set_RFOUT_DATA()              ((GPIOD->BSRRL) = GPIO_Pin_2)
+//#define Clr_RFOUT_DATA()              ((GPIOD->BSRRH) = GPIO_Pin_2)
+#define Set_Beep()                    GPIO_SetBits(GPIOA,  GPIO_Pin_6);
+#define Clr_Beep()                    GPIO_ResetBits(GPIOA,  GPIO_Pin_6);
+
+//#define Set_ASK_DATA()          ((GPIOC->BSRRL) = GPIO_Pin_4)
+//#define Clr_ASK_DATA()          ((GPIOC->BSRRH) = GPIO_Pin_4)
+//#define Set_PLL_CLK()           ((GPIOC->BSRRL) = GPIO_Pin_3)
+//#define Clr_PLL_CLK()           ((GPIOC->BSRRH) = GPIO_Pin_3)
+//#define Set_PLL_DATA()          ((GPIOC->BSRRL) = GPIO_Pin_2)
+//#define Clr_PLL_DATA()          ((GPIOC->BSRRH) = GPIO_Pin_2)
+//#define Set_PLL_LE()            ((GPIOC->BSRRL) = GPIO_Pin_1)
+//#define Clr_PLL_LE()            ((GPIOC->BSRRH) = GPIO_Pin_1)
+
+
+#ifdef OpenUSART1
+#define Open207V_USARTx                         USART1
+#define Open207V_USARTx_CLK                     RCC_APB2Periph_USART1
+#define Open207V_USARTx_TX_PIN                  GPIO_Pin_9
+#define Open207V_USARTx_TX_GPIO_PORT            GPIOA
+#define Open207V_USARTx_TX_GPIO_CLK             RCC_AHB1Periph_GPIOA
+#define Open207V_USARTx_TX_SOURCE               GPIO_PinSource9
+#define Open207V_USARTx_TX_AF                   GPIO_AF_USART1
+#define Open207V_USARTx_RX_PIN                  GPIO_Pin_10
+#define Open207V_USARTx_RX_GPIO_PORT            GPIOA
+#define Open207V_USARTx_RX_GPIO_CLK             RCC_AHB1Periph_GPIOA
+#define Open207V_USARTx_RX_SOURCE               GPIO_PinSource10
+#define Open207V_USARTx_RX_AF                   GPIO_AF_USART1
+#define Open207V_USARTx_CTS_PIN                 GPIO_Pin_11
+#define Open207V_USARTx_CTS_GPIO_PORT           GPIOA
+#define Open207V_USARTx_CTS_GPIO_CLK            RCC_AHB1Periph_GPIOA
+#define Open207V_USARTx_CTS_SOURCE              GPIO_PinSource11
+#define Open207V_USARTx_CTS_AF                  GPIO_AF_USART1
+#define Open207V_USARTx_RTS_PIN                 GPIO_Pin_12
+#define Open207V_USARTx_RTS_GPIO_PORT           GPIOA
+#define Open207V_USARTx_RTS_GPIO_CLK            RCC_AHB1Periph_GPIOA
+#define Open207V_USARTx_RTS_SOURCE              GPIO_PinSource12
+#define Open207V_USARTx_RTS_AF                  GPIO_AF_USART1
+#define Open207V_USARTx_IRQn                    USART1_IRQn
+#endif
+#ifdef OpenUSART2
+#define Open207V_USARTx                         USART2
+#define Open207V_USARTx_CLK                     RCC_APB1Periph_USART2
+#define Open207V_USARTx_TX_PIN                  GPIO_Pin_2
+#define Open207V_USARTx_TX_GPIO_PORT            GPIOA
+#define Open207V_USARTx_TX_GPIO_CLK             RCC_AHB1Periph_GPIOA
+#define Open207V_USARTx_TX_SOURCE               GPIO_PinSource2
+#define Open207V_USARTx_TX_AF                   GPIO_AF_USART2
+#define Open207V_USARTx_RX_PIN                  GPIO_Pin_3
+#define Open207V_USARTx_RX_GPIO_PORT            GPIOA
+#define Open207V_USARTx_RX_GPIO_CLK             RCC_AHB1Periph_GPIOA
+#define Open207V_USARTx_RX_SOURCE               GPIO_PinSource3
+#define Open207V_USARTx_RX_AF                   GPIO_AF_USART2
+#define Open207V_USARTx_CTS_PIN                 GPIO_Pin_3
+#define Open207V_USARTx_CTS_GPIO_PORT           GPIOD
+#define Open207V_USARTx_CTS_GPIO_CLK            RCC_AHB1Periph_GPIOD
+#define Open207V_USARTx_CTS_SOURCE              GPIO_PinSource3
+#define Open207V_USARTx_CTS_AF                  GPIO_AF_USART2
+#define Open207V_USARTx_RTS_PIN                 GPIO_Pin_4
+#define Open207V_USARTx_RTS_GPIO_PORT           GPIOD
+#define Open207V_USARTx_RTS_GPIO_CLK            RCC_AHB1Periph_GPIOD
+#define Open207V_USARTx_RTS_SOURCE              GPIO_PinSource4
+#define Open207V_USARTx_RTS_AF                  GPIO_AF_USART2
+#define Open207V_USARTx_IRQn                    USART2_IRQn
+#endif
+#ifdef OpenUSART3
+#define Open207V_USARTx                         USART3
+#define Open207V_USARTx_CLK                     RCC_APB1Periph_USART3
+#define Open207V_USARTx_TX_PIN                  GPIO_Pin_10
+#define Open207V_USARTx_TX_GPIO_PORT            GPIOC
+#define Open207V_USARTx_TX_GPIO_CLK             RCC_AHB1Periph_GPIOC
+#define Open207V_USARTx_TX_SOURCE               GPIO_PinSource10
+#define Open207V_USARTx_TX_AF                   GPIO_AF_USART3
+#define Open207V_USARTx_RX_PIN                  GPIO_Pin_11
+#define Open207V_USARTx_RX_GPIO_PORT            GPIOC
+#define Open207V_USARTx_RX_GPIO_CLK             RCC_AHB1Periph_GPIOC
+#define Open207V_USARTx_RX_SOURCE               GPIO_PinSource11
+#define Open207V_USARTx_RX_AF                   GPIO_AF_USART3
+#define Open207V_USARTx_CTS_PIN                 GPIO_Pin_13
+#define Open207V_USARTx_CTS_GPIO_PORT           GPIOB
+#define Open207V_USARTx_CTS_GPIO_CLK            RCC_AHB1Periph_GPIOB
+#define Open207V_USARTx_CTS_SOURCE              GPIO_PinSource13
+#define Open207V_USARTx_CTS_AF                  GPIO_AF_USART3
+#define Open207V_USARTx_RTS_PIN                 GPIO_Pin_14
+#define Open207V_USARTx_RTS_GPIO_PORT           GPIOB
+#define Open207V_USARTx_RTS_GPIO_CLK            RCC_AHB1Periph_GPIOB
+#define Open207V_USARTx_RTS_SOURCE              GPIO_PinSource14
+#define Open207V_USARTx_RTS_AF                  GPIO_AF_USART3
+#define Open207V_USARTx_IRQn                    USART3_IRQn
+#endif
+#ifdef OpenUART4
+#define Open207V_USARTx                         UART4
+#define Open207V_USARTx_CLK                     RCC_APB1Periph_UART4
+#define Open207V_USARTx_TX_PIN                  GPIO_Pin_10
+#define Open207V_USARTx_TX_GPIO_PORT            GPIOC
+#define Open207V_USARTx_TX_GPIO_CLK             RCC_AHB1Periph_GPIOC
+#define Open207V_USARTx_TX_SOURCE               GPIO_PinSource10
+#define Open207V_USARTx_TX_AF                   GPIO_AF_UART4
+#define Open207V_USARTx_RX_PIN                  GPIO_Pin_11
+#define Open207V_USARTx_RX_GPIO_PORT            GPIOC
+#define Open207V_USARTx_RX_GPIO_CLK             RCC_AHB1Periph_GPIOC
+#define Open207V_USARTx_RX_SOURCE               GPIO_PinSource11
+#define Open207V_USARTx_RX_AF                   GPIO_AF_UART4
+#define Open207V_USARTx_IRQn                    UART4_IRQn
+#endif
+#ifdef OpenUART5
+#define Open207V_USARTx                         UART5
+#define Open207V_USARTx_CLK                     RCC_APB1Periph_UART5
+#define Open207V_USARTx_TX_PIN                  GPIO_Pin_12
+#define Open207V_USARTx_TX_GPIO_PORT            GPIOC
+#define Open207V_USARTx_TX_GPIO_CLK             RCC_AHB1Periph_GPIOC
+#define Open207V_USARTx_TX_SOURCE               GPIO_PinSource12
+#define Open207V_USARTx_TX_AF                   GPIO_AF_UART5
+#define Open207V_USARTx_RX_PIN                  GPIO_Pin_2
+#define Open207V_USARTx_RX_GPIO_PORT            GPIOD
+#define Open207V_USARTx_RX_GPIO_CLK             RCC_AHB1Periph_GPIOD
+#define Open207V_USARTx_RX_SOURCE               GPIO_PinSource2
+#define Open207V_USARTx_RX_AF                   GPIO_AF_UART5
+#define Open207V_USARTx_IRQn                    UART5_IRQn
+#endif
+#ifdef OpenSPI1
+#define Open207V_SPIx                           SPI1
+#define Open207V_SPIx_CLK                       RCC_APB2Periph_SPI1
+#define Open207V_SPIx_IRQn                      SPI1_IRQn
+#define Open207V_SPIx_IRQHANDLER                SPI1_IRQHandler
+#define Open207V_SPIx_SCK_PIN                   GPIO_Pin_5
+#define Open207V_SPIx_SCK_GPIO_PORT             GPIOA
+#define Open207V_SPIx_SCK_GPIO_CLK              RCC_AHB1Periph_GPIOA
+#define Open207V_SPIx_SCK_SOURCE                GPIO_PinSource5
+#define Open207V_SPIx_SCK_AF                    GPIO_AF_SPI1
+#define Open207V_SPIx_MISO_PIN                  GPIO_Pin_6
+#define Open207V_SPIx_MISO_GPIO_PORT            GPIOA
+#define Open207V_SPIx_MISO_GPIO_CLK             RCC_AHB1Periph_GPIOA
+#define Open207V_SPIx_MISO_SOURCE               GPIO_PinSource6
+#define Open207V_SPIx_MISO_AF                   GPIO_AF_SPI1
+#define Open207V_SPIx_MOSI_PIN                  GPIO_Pin_7
+#define Open207V_SPIx_MOSI_GPIO_PORT            GPIOA
+#define Open207V_SPIx_MOSI_GPIO_CLK             RCC_AHB1Periph_GPIOA
+#define Open207V_SPIx_MOSI_SOURCE               GPIO_PinSource7
+#define Open207V_SPIx_MOSI_AF                   GPIO_AF_SPI1
+#endif
+#ifdef OpenSPI2
+#define Open207V_SPIx                           SPI2
+#define Open207V_SPIx_CLK                       RCC_APB1Periph_SPI2
+#define Open207V_SPIx_IRQn                      SPI2_IRQn
+#define Open207V_SPIx_IRQHANDLER                SPI2_IRQHandler
+#define Open207V_SPIx_SCK_PIN                   GPIO_Pin_13
+#define Open207V_SPIx_SCK_GPIO_PORT             GPIOB
+#define Open207V_SPIx_SCK_GPIO_CLK              RCC_AHB1Periph_GPIOB
+#define Open207V_SPIx_SCK_SOURCE                GPIO_PinSource13
+#define Open207V_SPIx_SCK_AF                    GPIO_AF_SPI2
+#define Open207V_SPIx_MISO_PIN                  GPIO_Pin_14
+#define Open207V_SPIx_MISO_GPIO_PORT            GPIOB
+#define Open207V_SPIx_MISO_GPIO_CLK             RCC_AHB1Periph_GPIOB
+#define Open207V_SPIx_MISO_SOURCE               GPIO_PinSource14
+#define Open207V_SPIx_MISO_AF                   GPIO_AF_SPI2
+#define Open207V_SPIx_MOSI_PIN                  GPIO_Pin_15
+#define Open207V_SPIx_MOSI_GPIO_PORT            GPIOB
+#define Open207V_SPIx_MOSI_GPIO_CLK             RCC_AHB1Periph_GPIOB
+#define Open207V_SPIx_MOSI_SOURCE               GPIO_PinSource15
+#define Open207V_SPIx_MOSI_AF                   GPIO_AF_SPI2
+#endif
+#ifdef OpenSPI3
+#define Open207V_SPIx                           SPI3
+#define Open207V_SPIx_CLK                       RCC_APB1Periph_SPI3
+#define Open207V_SPIx_IRQn                      SPI3_IRQn
+#define Open207V_SPIx_IRQHANDLER                SPI3_IRQHandler
+#define Open207V_SPIx_SCK_PIN                   GPIO_Pin_3
+#define Open207V_SPIx_SCK_GPIO_PORT             GPIOB
+#define Open207V_SPIx_SCK_GPIO_CLK              RCC_AHB1Periph_GPIOB
+#define Open207V_SPIx_SCK_SOURCE                GPIO_PinSource3
+#define Open207V_SPIx_SCK_AF                    GPIO_AF_SPI3
+#define Open207V_SPIx_MISO_PIN                  GPIO_Pin_4
+#define Open207V_SPIx_MISO_GPIO_PORT            GPIOB
+#define Open207V_SPIx_MISO_GPIO_CLK             RCC_AHB1Periph_GPIOB
+#define Open207V_SPIx_MISO_SOURCE               GPIO_PinSource4
+#define Open207V_SPIx_MISO_AF                   GPIO_AF_SPI3
+#define Open207V_SPIx_MOSI_PIN                  GPIO_Pin_5
+#define Open207V_SPIx_MOSI_GPIO_PORT            GPIOB
+#define Open207V_SPIx_MOSI_GPIO_CLK             RCC_AHB1Periph_GPIOB
+#define Open207V_SPIx_MOSI_SOURCE               GPIO_PinSource5
+#define Open207V_SPIx_MOSI_AF                   GPIO_AF_SPI3
+#endif
+
+#ifdef OpenI2C1
+#define Open207V_I2Cx                           I2C1
+#define Open207V_I2Cx_CLK                       RCC_APB1Periph_I2C1
+#define Open207V_I2Cx_SDA_PIN                   GPIO_Pin_7
+#define Open207V_I2Cx_SDA_GPIO_PORT             GPIOB
+#define Open207V_I2Cx_SDA_GPIO_CLK              RCC_AHB1Periph_GPIOB
+#define Open207V_I2Cx_SDA_SOURCE                GPIO_PinSource7
+#define Open207V_I2Cx_SDA_AF                    GPIO_AF_I2C1
+#define Open207V_I2Cx_SCL_PIN                   GPIO_Pin_8
+#define Open207V_I2Cx_SCL_GPIO_PORT             GPIOB
+#define Open207V_I2Cx_SCL_GPIO_CLK              RCC_AHB1Periph_GPIOB
+#define Open207V_I2Cx_SCL_SOURCE                GPIO_PinSource8
+#define Open207V_I2Cx_SCL_AF                    GPIO_AF_I2C1
+#endif
+#ifdef OpenI2C2
+#define Open207V_I2Cx                           I2C2
+#define Open207V_I2Cx_CLK                       RCC_APB1Periph_I2C2
+#define Open207V_I2Cx_SDA_PIN                   GPIO_Pin_11
+#define Open207V_I2Cx_SDA_GPIO_PORT             GPIOB
+#define Open207V_I2Cx_SDA_GPIO_CLK              RCC_AHB1Periph_GPIOB
+#define Open207V_I2Cx_SDA_SOURCE                GPIO_PinSource11
+#define Open207V_I2Cx_SDA_AF                    GPIO_AF_I2C2
+#define Open207V_I2Cx_SCL_PIN                   GPIO_Pin_10
+#define Open207V_I2Cx_SCL_GPIO_PORT             GPIOB
+#define Open207V_I2Cx_SCL_GPIO_CLK              RCC_AHB1Periph_GPIOB
+#define Open207V_I2Cx_SCL_SOURCE                GPIO_PinSource10
+#define Open207V_I2Cx_SCL_AF                    GPIO_AF_I2C2
+#endif
+#ifdef OpenI2C3
+#define Open207V_I2Cx                           I2C3
+#define Open207V_I2Cx_CLK                       RCC_APB1Periph_I2C3
+#define Open207V_I2Cx_SDA_PIN                   GPIO_Pin_9
+#define Open207V_I2Cx_SDA_GPIO_PORT             GPIOC
+#define Open207V_I2Cx_SDA_GPIO_CLK              RCC_AHB1Periph_GPIOC
+#define Open207V_I2Cx_SDA_SOURCE                GPIO_PinSource9
+#define Open207V_I2Cx_SDA_AF                    GPIO_AF_I2C3
+#define Open207V_I2Cx_SCL_PIN                   GPIO_Pin_8
+#define Open207V_I2Cx_SCL_GPIO_PORT             GPIOA
+#define Open207V_I2Cx_SCL_GPIO_CLK              RCC_AHB1Periph_GPIOA
+#define Open207V_I2Cx_SCL_SOURCE                GPIO_PinSource8
+#define Open207V_I2Cx_SCL_AF                    GPIO_AF_I2C3
+#endif
+
+#ifdef  OpenCAN1
+#define Open207V_CANx                       CAN1
+#define Open207V_CAN_CLK                    RCC_APB1Periph_CAN1
+#define Open207V_CAN_RX_PIN                 GPIO_Pin_8
+#define Open207V_CAN_TX_PIN                 GPIO_Pin_9
+#define Open207V_CAN_GPIO_PORT              GPIOB
+#define Open207V_CAN_GPIO_CLK               RCC_AHB1Periph_GPIOB
+#define Open207V_CAN_AF_PORT                GPIO_AF_CAN1
+#define Open207V_CAN_RX_SOURCE              GPIO_PinSource8
+#define Open207V_CAN_TX_SOURCE              GPIO_PinSource9
+#endif
+#ifdef OpenCAN2
+#define Open207V_CANx                       CAN2
+#define Open207V_CAN_CLK                    RCC_APB1Periph_CAN2
+#define Open207V_CAN_RX_PIN                 GPIO_Pin_6
+#define Open207V_CAN_TX_PIN                 GPIO_Pin_12
+#define Open207V_CAN_GPIO_PORT              GPIOB
+#define Open207V_CAN_GPIO_CLK               RCC_AHB1Periph_GPIOB
+#define Open207V_CAN_AF_PORT                GPIO_AF_CAN2
+#define Open207V_CAN_RX_SOURCE              GPIO_PinSource12
+#define Open207V_CAN_TX_SOURCE              GPIO_PinSource6
+#endif
+#ifdef Open207_TOUTH_SPI2
+#define Open207V_TOUTH_SPI                           SPI2
+#define Open207V_TOUTH_SPI_CLK                       RCC_APB1Periph_SPI2
+#define Open207V_TOUTH_SPI_IRQn                      SPI2_IRQn
+#define Open207V_TOUTH_SPI_IRQHANDLER                SPI2_IRQHandler
+#define Open207V_TOUTH_SPI_SCK_PIN                   GPIO_Pin_13
+#define Open207V_TOUTH_SPI_SCK_GPIO_PORT             GPIOB
+#define Open207V_TOUTH_SPI_SCK_GPIO_CLK              RCC_AHB1Periph_GPIOB
+#define Open207V_TOUTH_SPI_SCK_SOURCE                GPIO_PinSource13
+#define Open207V_TOUTH_SPI_SCK_AF                    GPIO_AF_SPI2
+#define Open207V_TOUTH_SPI_MISO_PIN                  GPIO_Pin_14
+#define Open207V_TOUTH_SPI_MISO_GPIO_PORT            GPIOB
+#define Open207V_TOUTH_SPI_MISO_GPIO_CLK             RCC_AHB1Periph_GPIOB
+#define Open207V_TOUTH_SPI_MISO_SOURCE               GPIO_PinSource14
+#define Open207V_TOUTH_SPI_MISO_AF                   GPIO_AF_SPI2
+#define Open207V_TOUTH_SPI_MOSI_PIN                  GPIO_Pin_15
+#define Open207V_TOUTH_SPI_MOSI_GPIO_PORT            GPIOB
+#define Open207V_TOUTH_SPI_MOSI_GPIO_CLK             RCC_AHB1Periph_GPIOB
+#define Open207V_TOUTH_SPI_MOSI_SOURCE               GPIO_PinSource15
+#define Open207V_TOUTH_SPI_MOSI_AF                   GPIO_AF_SPI2
+#endif
+
+#define CHARGER_INT_PORT                        GPIOC
+#define CHARGER_INT_PIN                         GPIO_Pin_13
+#define POWER_KEY_PORT                          GPIOA
+#define POWER_KEY_PIN                           GPIO_Pin_0
+//#define IFSW_CTR_PORT                           GPIOA
+//#define IFSW_CTR_PIN                            GPIO_Pin_1
+//#define LOSLT_PORT                              GPIOA
+//#define LOSLT_PIN                               GPIO_Pin_2
+#define POWER_LED_PORT                          GPIOC
+#define POWER_LED_PIN                           GPIO_Pin_9
+#define SW_KEY_PORT                             GPIOB
+#define SW_KEY_PIN                              GPIO_Pin_9
+#define Flash_NSS_PORT                          GPIOC
+#define Flash_NSS_PIN                           GPIO_Pin_0
+
+#define RUN_LED_PORT                          GPIOC            //‘À––µ∆
+#define RUN_LED_PIN                           GPIO_Pin_8
+#define RUN_LED_CLK                           RCC_AHB1Periph_GPIOC
+
+#define CTRL_PORT  GPIOC
+#define CTRL_PIN  GPIO_Pin_7
+#define CTRL_CLK   RCC_AHB1Periph_GPIOC
+
+void Board_GPIO_Init(void);
+void Board_EXIO_Init(uint8_t IO_ST);
+
+void Board_SPI2_Init(void);
+void Board_UART4_Init(void);
+void Board_USART3_Init(void);
+void Board_Flash_Init(void);
+void Board_RS232_Init(void);
+void Board_RS485_Init(void);
+void Board_Timer2x_Init(void);
+//void Board_Timer3x_Init(void);
+void Board_I2C_Init(void);
+void Board_DAC_Init(void);
+//void Board_ADC_Init(void);
+//uint16_t Get_ADC_Value(ADC_TypeDef* ADCx);
+void Board_Timer0x_Init(void);
+void Board_Timer1x_Init(void);
+void RFPowerON(uint16_t x);
+void RFPowerOFF(void);
+void ConfigPLL(unsigned int Freq,unsigned char Bits);
+void StartPLL(void);
+void ConfigFreqPoint(unsigned char FreqPoint, unsigned short iBaseFreq);
+void FreqHopping(unsigned char bFreqValue);
+
+void SetWorkLedState(uint8_t state);
+
+void GPIOS_Init(void);
+void EXTILine0_Config(void);
+void EXTILine7_Config(void);
+void EXTILine13_Config(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
