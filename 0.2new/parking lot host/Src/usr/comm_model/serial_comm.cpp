@@ -54,7 +54,8 @@ unsigned short Serial_Comm::getCRC16(unsigned char *q, int len)
     unsigned short crc = 0;
     while (len-- > 0)
     crc = ccittTable[(crc >> 8 ^ *q++) & 0xff] ^ (crc << 8);
-    return ~crc;
+    //return ~crc;
+	return crc;
 }
 
 /**

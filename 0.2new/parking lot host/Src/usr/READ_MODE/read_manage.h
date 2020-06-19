@@ -69,6 +69,27 @@
 #define continueAccessSpc_flag        610 //持久化规则 正常标志位	0x0A:正常 00:不正常
 #define continueAccessSpc_start       611 //持久化规则
 
+
+
+//----------------用户存储配置信息（1M  0 ~ 0x100000）-----------------------
+#define SN_STORAGE_flag          continueAccessSpc_start+1000-611
+#define SN_STORAGE_ADDR          SN_STORAGE_flag+1
+#define SN_STORAGE_SIZE          32
+
+#define CONFIG_STORAGE_flag     SN_STORAGE_ADDR+SN_STORAGE_SIZE
+#define CONFIG_STORAGE_ADDR     CONFIG_STORAGE_flag+1
+#define CONFIG_STORAGE_SIZE     4096
+
+#define POWER_PA_flag             CONFIG_STORAGE_ADDR+CONFIG_STORAGE_SIZE
+#define POWER_PA_ADDR             POWER_PA_flag+1
+#define POWER_PA_SIZE             4
+
+#define GETCFG__flag            POWER_PA_ADDR+POWER_PA_SIZE
+#define GETCFG_ADDR             GETCFG__flag+1
+#define GETCFG_SIZE             4096
+
+
+
 //flash信息存储区域结构体
 typedef struct
 {

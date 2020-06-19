@@ -162,6 +162,7 @@
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: ..\Src\usr\hw_model\time2.h
 .\objects\main.o: ..\Src\usr\radar_model\radar_model.h
+.\objects\main.o: ..\Src\usr\banister\banister.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\list.CC
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\vector.CC
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_tree.CC

@@ -14,6 +14,7 @@
 #include "lowpower.h"
 #include "read_manage.h"
 #include "pcf8563.h"
+#include "banister.h"
 Main_Application *g_pMainApplication;
 
 
@@ -228,6 +229,39 @@ void Main_Application::dealRecvMessages(CMessage *pMessage,Base_Comm *pComm){
 					}					
 					break;
 				}					
+				
+				
+				case 0xa4://下发道闸机指令数据
+				{
+					printf("ContrlBanister\n");
+					//unsigned char Contrlbanister = manuframe.DataBuf[0];
+					//if(Contrlbanister == 0)//开启道闸
+					//{
+						//PC6 IO1
+					
+					ContrlBanister(Baister_EN);
+					
+					Delay_ms(500);
+					
+					ContrlBanister(!Baister_EN);
+					//响应
+					llrp_u8v_t bytes = llrp_u8v_t(3); 
+					bytes.m_pValue[0] = 0x24;  					
+					bytes.m_pValue[1] = 0x00;           
+					bytes.m_pValue[2] = 0x00;  
+					preportmessage->setByteStream(bytes);
+					if(preportmessage!=NULL)
+					{
+						if(false == pComm->immediateSendMessage(preportmessage,pMessage->getMessageID()))
+						{
+								printf("send ack fail!\n");
+						}
+						delete preportmessage;
+					}
+					break;					
+				}
+				
+				
 				
 				case 0xa5://查询设备节点配置信息
 				{
@@ -847,6 +881,7 @@ void Main_Application::dealRecvMessages(CMessage *pMessage,Base_Comm *pComm){
 						
 				default: //各个模块处理自定义消息
 				{
+					delete preportmessage;//删除内存泄漏
 					if(m_pRfManager->dealMessage(pMessage,pComm)<0){
 						if(m_pSm2Certification->dealMfeMessage(pMessage,pComm)){
 							
@@ -867,6 +902,12 @@ void Main_Application::dealRecvMessages(CMessage *pMessage,Base_Comm *pComm){
 				if(this->dealGeneralMessage(pMessage,pComm)<0){
 					if(m_pOperationProcess->dealMessage(pMessage,pComm)<0){
 						if(m_pVersionManager->dealMessage(pMessage,pComm)<0){
+							
+								if(m_pSm2Certification->dealMessage(pMessage,pComm)<0){
+									if(m_pParamManager->dealMessage(pMessage,pComm)<0){
+								}
+							}
+							
 						}
 					}
 				}

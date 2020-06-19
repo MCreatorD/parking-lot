@@ -1,6 +1,6 @@
 #include "GetDeviceCapabilities.h"
 #include <stdio.h>
-
+#include "main_application.h"
 
 GetDeviceCapabilitiesFuction::GetDeviceCapabilitiesFuction()
 {
@@ -22,9 +22,14 @@ CMessage *GetDeviceCapabilitiesFuction::getDeviceCapabilitiesRequestedDataMessag
 		memset(deviceManufacturerName.m_pValue,0x00,deviceManufacturerName.m_nValue);
 		memcpy(deviceManufacturerName.m_pValue,"Bellon_Tech",11);
 	
-		llrp_u8v_t deviceSN = llrp_u8v_t(9);
-    memcpy(deviceSN.m_pValue,"BL000000",9);
-		;
+//		llrp_u8v_t deviceSN = llrp_u8v_t(9);
+//    memcpy(deviceSN.m_pValue,"BL000000",9);
+			//llrp_utf8v_t deviceManufacturerName = g_pMainApplication->deviceManufacturerName;
+	
+		//llrp_u8v_t deviceSN = llrp_u8v_t(9);
+    //memcpy(deviceSN.m_pValue,"BL000000",9);
+		llrp_u8v_t deviceSN = g_pMainApplication->convertdeviceSN();
+	
 	
 		///////////////////////////////////////////////////////////
 	

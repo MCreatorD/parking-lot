@@ -207,11 +207,10 @@ Tag_SelectAccessResult * OperationReport_Manager::getSAResFromOpRes(){
                 //因而导致停止读卡后，读卡规则不能被正确释放.
                 //另，还有可能m_TempOpspecResults过大导致内存崩溃
                 //2017.08.08修改，加限制不会内存崩溃
-//                if(m_TempOpsecResults.size()<5){
+//                if(m_TempOpsecResults.size()<2){
 //                    m_TempOpsecResults.push_back(popresult);
 //                }
-//                m_pOpSpecExec->popOpResult();
-								
+//               	printf("delete popresult;.................\n");									
 								//2018/12/10对于错误的读卡数据直接删除
 								m_pOpSpecExec->popOpResult();
 								delete popresult;	

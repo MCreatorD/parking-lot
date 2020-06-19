@@ -4,7 +4,7 @@
 
 #include <stdint.h>
 
-#define SPI_MAX_LEN 256
+#define SPI_MAX_LEN 1024
 using namespace std;
 
 #define SPI1_Device  0

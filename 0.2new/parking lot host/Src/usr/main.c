@@ -48,6 +48,7 @@
 	#include <time.h>
 	#include "time2.h"
 	#include "radar_model.h"
+	#include "banister.h"
 //////////////////////////////////////////////
 //IO口初始化
 void init_gpio(void)
@@ -126,12 +127,13 @@ int main(void)
 	/*---------配置主机上电关载波，绿色灯-------------*/
 	LMX2541_SetFrequency(0); 
 	RFPowerOFF();	
-  BUZZER_LED_H;//绿色	
+	BUZZER_LED_H;//绿色	
+	BanisterIoInit();
 	//8. 注册C++相关的程序 NEW初始化 
 	Main_Application m_MainApp;
 	//---------------------前方测试通过------------------------------//		 
 	printf("The system into while(1)\n");
-
+	//printf("runing\n");
 	while(1)
 	{	
 		m_MainApp.run();//进行llrp的上位机控制

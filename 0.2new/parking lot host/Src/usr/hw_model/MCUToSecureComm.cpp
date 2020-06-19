@@ -27,7 +27,12 @@ MCUToSecureComm::MCUToSecureComm() {
 	m_FrameTypeToLen.insert(pair<int,int>(RF2M_TAGDATA_FRAME,32));
     m_FrameTypeToLen.insert(pair<int,int>(M2SEC_FILTERACK_FRAME,7)); //安全模块过滤配置响应帧,为配置响应帧的一种。和工作模式配置返回长度一至。
     m_FrameTypeToLen.insert(pair<int,int>(M2SEC_SETTESTACK_FRAME,7)); //安全模块设置测试模式响应帧
+
 	
+	    //m_FrameTypeToLen.insert(pair<int,int>(M2SEC_SPECIALWRITEACK_FRAME,24)); //专用写分区帧应答长度，应为13字节，为保险，设为24字节
+    m_FrameTypeToLen.insert(pair<int,int>(M2SEC_SPECIALWRITEACK_FRAME,1024));
+	    //序列号帧长度
+    m_FrameTypeToLen.insert(pair<int,int>(M2SEC_SECSERIALACK_FRAME,20));
 	this->initSPIDevice(SPI2_Device);
 }
 
@@ -134,6 +139,8 @@ STRUCT_M2SEC_FRAME * MCUToSecureComm::getFrameFromBuf(uint8_t *buf,int buflen){
 			printf("0x%02x,",buf[i]);
 		}
 		printf("\n");
+		
+		delete pframe;
 		return NULL;
 	}
 
@@ -259,6 +266,14 @@ STRUCT_M2SEC_FRAME * MCUToSecureComm::creatFrame(int frametype,uint8_t *contentb
         pframe->OperId = contentbuf[0];
         datalen = contentlen;
         hasoperid = true;
+	    case M2SEC_SPECIALWRITE_FRAME:
+        pframe->Head = 0xAA;
+        pframe->Type = 0xC1;
+        pframe->OperId = contentbuf[0];
+        datalen = contentlen;
+        hasoperid = true;  //表示传入的参数含用操作符
+        break;	
+		
 	}
 
 	//因为传入的参数分为包含operid和不包含两种，所以要区别处理
@@ -501,7 +516,7 @@ int MCUToSecureComm::waitSecReadyForComm(int overtime){
 			//printf("ctrl out is 0\n");
 			return 0;
 		}
-		Delay_ms(1);;
+		Delay_ms(1);
 		overtime_count++;
 		if(overtime_count>overtime){
 			//printf("wait sec module ctrlout ready overtime...\n");

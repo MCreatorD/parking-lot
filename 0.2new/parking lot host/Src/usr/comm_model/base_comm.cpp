@@ -105,6 +105,7 @@ bool Base_Comm::sendFrame(CMessage *pmessage){
 //    llrp_u64_t sn = strToHex(versionnum+3);//"BL1810302002";//0x424c120A1E140200;//Param_Manager::convertDeviceSN(g_pMainApplication->deviceSN);
 //		             
     pmessage->setDeviceSN(g_pMainApplication->Devicesn);
+
     unsigned char sendbuf[MAX_TX_LEN];
     CFrameEncoder frameencoder(sendbuf,MAX_TX_LEN);
     frameencoder.encodeElement(pmessage);

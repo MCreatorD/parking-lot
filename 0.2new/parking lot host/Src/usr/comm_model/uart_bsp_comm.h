@@ -155,8 +155,8 @@
 	#ifdef __cplusplus
 	 extern "C" {
 	#endif
-	#define Comm_USART_RX_LEN 4096 * 2
-	#define Comm_USART_TX_LEN 512
+	#define Comm_USART_RX_LEN 4096 + 1024
+	#define Comm_USART_TX_LEN 2048
 	extern u8 Comm_USART_RX_BUF[Comm_USART_RX_LEN];     //接收缓冲,最USART_RX_LEN个字节
 	extern u8 Comm_USART_TX_BUF[Comm_USART_TX_LEN];    //发送缓冲,最大USART_TX_LEN个字节
 	extern u8 Comm_USART_RX_STA;       //接收完成状态标记

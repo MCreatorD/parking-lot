@@ -15,8 +15,8 @@ using namespace std;
 #include "LLRP_Operation.h"
 #include "LLRP_NET.h"
 
-#define MAX_TX_LEN 512
-#define MAX_RX_LEN 4096 *2
+#define MAX_TX_LEN 2048
+#define MAX_RX_LEN 4096 + 1024
 
 class HbFrame_Operation
 {

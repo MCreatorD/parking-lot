@@ -131,8 +131,11 @@
 .\objects\param_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\param_manager.o: ..\Src\usr\certification_model\Sm2Certification.h
 .\objects\param_manager.o: ..\Src\usr\READ_MODE\read_manage.h
+.\objects\param_manager.o: ..\Src\usr\hw_model\EN25Q256.h
+.\objects\param_manager.o: ..\Src\_Common\printf_usart.h
+.\objects\param_manager.o: ..\Src\usr\hw_model\spi.h
+.\objects\param_manager.o: ..\Src\usr\comm_model\uart_bsp_comm.h
 .\objects\param_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\list.CC
 .\objects\param_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_tree.CC
 .\objects\param_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\vector.CC
 .\objects\param_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\deque.CC
-.\objects\param_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.CC

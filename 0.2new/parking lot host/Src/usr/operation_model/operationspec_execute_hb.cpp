@@ -38,9 +38,17 @@ OperationSpec_Execute_HB::~OperationSpec_Execute_HB(){
  * 如等到该信号后，则向FPGA发出结束射频操作的IO信号，通知FPGA结束本次射频操作。
  * //如一次singleselect执行完毕，则返回真，未执行完毕，返回假
  */
+
+static unsigned int read_speed = 0;
+static unsigned char first_pop = 0;
 bool OperationSpec_Execute_HB::singleSelectAccess(Tag_SelectSpec *pTagSelectSpec,Tag_AccessSpec *pTagAccessSpec,CAntennaSpec *pAntennaSpec,llrp_u16_t antSpecIndex,CRfSpec *pRfSpec){
 
 	unsigned char tmp_ack = 0;
+	
+
+	
+	read_speed++;
+	
 	//开始读卡后转发数据
 	switch(m_SelectStep){
 		case 0://配置安全模块读卡模式
@@ -87,14 +95,39 @@ bool OperationSpec_Execute_HB::singleSelectAccess(Tag_SelectSpec *pTagSelectSpec
 								{		
 										//printf("0:read one frame!\n");
 										//MCUToSecureComm::printfSecFrame(pframe);
-										//this->m_TagObTagNCount++;						
-										OpspecResult *popresult = new OpspecResult();						
-										popresult->pOpResultFrame = pframe;
-										popresult->setOpParams(pTagSelectSpec);	
-										this->pushOpResult(popresult);	
-									  //打印监控上报时的内存
-								  	//printf("----------size:%d---------------popresult:0X%8X\n",m_OpResults.size(),(unsigned int)popresult);	
-										return true;										
+										//this->m_TagObTagNCount++;	
+										if(first_pop == 0)
+										{
+											first_pop = 1;
+											read_speed = 0;
+											OpspecResult *popresult = new OpspecResult();						
+											popresult->pOpResultFrame = pframe;
+											popresult->setOpParams(pTagSelectSpec);	
+											
+//											//记录当前读取到的标签信息时的天线号
+//											popresult->operAntennaID = g_pMainApplication->m_read_manage->current_dev;
+											this->pushOpResult(popresult);	
+										  //打印监控上报时的内存
+										//printf("----------size:%d---------------popresult:0X%8X\n",m_OpResults.size(),(unsigned int)popresult);	
+											return true;											
+										}
+									
+										MCUToSecureComm::removeFrame(pframe);
+										//控制读卡速度
+										if(read_speed < 20)
+										{
+											return false;
+										}
+									    read_speed = 0;
+										  first_pop = 0;
+										  return false;
+//										OpspecResult *popresult = new OpspecResult();						
+//										popresult->pOpResultFrame = pframe;
+//										popresult->setOpParams(pTagSelectSpec);	
+//										this->pushOpResult(popresult);	
+//									  //打印监控上报时的内存
+//								  	//printf("----------size:%d---------------popresult:0X%8X\n",m_OpResults.size(),(unsigned int)popresult);	
+//										return true;										
 								}
 								//printf("(pframe!=NULL) end  ------- \n");
 							}

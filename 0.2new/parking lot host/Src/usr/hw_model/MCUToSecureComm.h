@@ -49,6 +49,15 @@ using namespace std;
 #define M2SEC_SETTEST_FRAME 23 //设置安全模块为测试模式帧
 #define M2SEC_SETTESTACK_FRAME 24 //设置安全模块为测试模式的响应帧
 
+
+#define M2SEC_SPECIALWRITE_FRAME 25 //专用写分区请求帧
+#define M2SEC_SPECIALWRITEACK_FRAME 26  //专用写分区请求帧应答帧
+//#define M2SEC_PRIVATESET_FRAME     27
+//#define M2SEC_PRIVATESETACK_FRAME  28
+
+#define M2SEC_SECSERIALACK_FRAME  29 //获取安全模块序列号返回帧
+
+
 //////////////////////////////////////////////////////////////////////////////////
 //#define HALF_USER_POINT 5 //用户区半区的起点地址，单位是字
 #define START_USER_POINT 4 //用户区有效数据起始地址，单位是字

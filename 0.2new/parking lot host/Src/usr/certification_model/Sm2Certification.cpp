@@ -22,11 +22,11 @@ Sm2Certification::Sm2Certification() {
 	// TODO Auto-generated constructor stub
 //	this->certificatedata = llrp_u8v_t(1024);
 //	this->userdata = llrp_u8v_t(224);
-//	this->finishCerChain = 0;
+	this->finishCerChain = 0;
 
-//	digitalCer = NULL;
+	digitalCer = NULL;
 
-//	readyForBindingRequest = false;
+	readyForBindingRequest = false;
 
 }
 
@@ -59,9 +59,10 @@ bool Sm2Certification::initSm2Key(){
 }
 
 bool Sm2Certification::initDevNr(){
-	uint8_t testnr[] = {'B','L','1','2','3','4','5','6'};
+//	uint8_t testnr[] = {'B','L','1','2','3','4','5','6'};
 
-  memcpy(devNr,testnr,8);
+//  memcpy(devNr,testnr,8);
+	memcpy(devNr,g_pMainApplication->convertdeviceSN().m_pValue,8);
 	return true;
 }
 
@@ -391,6 +392,8 @@ bool Sm2Certification::getCerFromSecModule(){
 	this->applyCerChain();
 	//向安全模块发送证书链。
 	STRUCT_M2SEC_FRAME *pframe = m_pM2SecComm->creatFrame(M2SEC_CERCHAIN_FRAME,cerChain,cerChainLen);
+	delete [] cerChain;
+	MCUToSecureComm::printfSecFrame(pframe);
 	if(!m_pM2SecComm->sendFrameToSecure(pframe)){
 		printf("Send CerChain frame to Secure fail!\n");
 		m_pM2SecComm->removeFrame(pframe);
@@ -423,6 +426,7 @@ bool Sm2Certification::getCerFromSecModule(){
 	}
 	//向安全模块发送用户信息
 	pframe = m_pM2SecComm->creatFrame(M2SEC_USERMSG_FRAME,userMsg,224);
+	delete []  userMsg;
 	if(!m_pM2SecComm->sendFrameToSecure(pframe)){
 		printf("Send user msg fail!\n");
 		m_pM2SecComm->removeFrame(pframe);
@@ -438,6 +442,7 @@ bool Sm2Certification::getCerFromSecModule(){
 	}
 	//读取安全模块给CA的授权
 	//uint8_t *sectocabuf;
+	int contentlen;
 	pframe = m_pM2SecComm->getFrameFromSecure(M2SEC_SEC2CA_FRAME);
 	if(pframe==NULL){
 		printf("Get secure to ca frame fail!\n");
@@ -445,17 +450,19 @@ bool Sm2Certification::getCerFromSecModule(){
 	}else{
         MCUToSecureComm::printfSecFrame(pframe);
 		printf("Get secure to ca frame success!\n");
-		int contentlen = m_pM2SecComm->getFrameContenLen(pframe);
+		contentlen = m_pM2SecComm->getFrameContenLen(pframe);
 		if(contentlen<=0){
 			m_pM2SecComm->removeFrame(pframe);
 			return false;
 		}
+		contentlen = (pframe->DataBuf[1])<<8;
+		contentlen = contentlen|(pframe->DataBuf[2]); //取得证书总长（2018.07.11修改）
 		printf("contentlen=%d\n",contentlen);
 		//printf("A0.......................\n");
 		llrp_u8v_t bindingrequestdata(contentlen);
 		//printf("A1.......................\n");
-		memcpy(bindingrequestdata.m_pValue,pframe->DataBuf+1,contentlen-1); //去掉第一个是否再次激活的标识字节
-
+		//memcpy(bindingrequestdata.m_pValue,pframe->DataBuf+1,contentlen-1); //去掉第一个是否再次激活的标识字节
+		memcpy(bindingrequestdata.m_pValue,pframe->DataBuf+1,contentlen); //去掉第一个是否再次激活的标识字节
 		//printf("A2.......................\n");
 		m_pM2SecComm->removeFrame(pframe);
 		//printf("A3.......................\n");
@@ -608,6 +615,9 @@ int Sm2Certification::dealMessage(CMessage *pMessage, Base_Comm *pComm){
     {
         printf("Received DeviceCertificateConfig...!\n");
 
+						this->certificatedata = llrp_u8v_t(1024);//定义了一个局部变量 自动析构释放内存
+				this->userdata = llrp_u8v_t(224);
+		
         CMessage *pack = NULL;
         CParameter *pstatus = NULL;
         CDeviceCertificateConfig *pDeviceCertificateConfig;

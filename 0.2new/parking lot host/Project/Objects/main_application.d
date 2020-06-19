@@ -137,6 +137,7 @@
 .\objects\main_application.o: ..\Src\usr\hw_model\sim_Spi1.h
 .\objects\main_application.o: ..\Src\usr\lowpower.h
 .\objects\main_application.o: ..\Src\usr\RTC\pcf8563.h
+.\objects\main_application.o: ..\Src\usr\banister\banister.h
 .\objects\main_application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\list.CC
 .\objects\main_application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\vector.CC
 .\objects\main_application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_tree.CC

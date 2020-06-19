@@ -85,6 +85,18 @@ public:
 
 
 public:
+		inline llrp_u64_t getDevicesn()
+		{
+			return Devicesn;
+		}
+		inline llrp_u8v_t convertdeviceSN(void)
+		{
+			llrp_u8v_t res(8);
+			    for(int i=0;i<8;i++){
+					res.m_pValue[i] = Devicesn>>(56-8*i);
+			}
+				return res;
+		}
 		inline Serial_Comm* getSerialComm(){
 			return m_pSerialComm;
 		}	
