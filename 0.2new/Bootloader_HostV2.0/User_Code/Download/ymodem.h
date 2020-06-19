@@ -12,7 +12,7 @@
 /* 防止重定义 *****************************************************************/
 #ifndef _YMODEM_H_
 #define _YMODEM_H_
-
+#include "stm32f2xx.h"
 /* 宏 ------------------------------------------------------------------------*/
 #define PACKET_SEQNO_INDEX      (1)
 #define PACKET_SEQNO_COMP_INDEX (2)
@@ -41,6 +41,7 @@
 #define MAX_ERRORS              (5)
 
 /* 函数声明 ------------------------------------------------------------------*/
+uint16_t Cal_CRC16(const uint8_t* data, uint32_t size);
 int32_t Ymodem_Receive (uint8_t *);
 uint8_t Ymodem_Transmit (uint8_t *,const  uint8_t* , uint32_t );
 

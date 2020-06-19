@@ -838,7 +838,7 @@ Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\startup_stm32f2xx.d -o.\objects\startup_stm32f2xx.o -I.\
 RTE\_Target_1 -IC:\Keil_v5\ARM\PACK\Keil\STM32F2xx_DFP\2.8.0\Drivers\CMSIS\Devi
 ce\ST\STM32F2xx\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB 
-SETA 1" --predefine="__UVISION_VERSION SETA 525" --predefine="STM32F205xx SETA 
+SETA 1" --predefine="__UVISION_VERSION SETA 527" --predefine="STM32F205xx SETA 
 1" --list=.\listings\startup_stm32f2xx.lst ..\ST_Lib\CMSIS\CM3\DeviceSupport\ST
 \STM32F2xx\startup\arm\startup_stm32f2xx.s
 

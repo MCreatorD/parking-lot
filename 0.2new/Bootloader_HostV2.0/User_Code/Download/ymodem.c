@@ -132,6 +132,30 @@ static int32_t Receive_Packet (uint8_t *data, int32_t *length, uint32_t timeout)
     {
         return -1;
     }
+		//crc 验证(头3个字节 + 1024/128  +尾2个字节)
+    uint16_t tempCRC = Cal_CRC16(&data[3], packet_size);//从接收的1024字节开始计算CRC
+		uint16_t ReciverCRC = data[packet_size + PACKET_OVERHEAD-2]<<8|data[packet_size + PACKET_OVERHEAD-1];//CRCH与CRCL
+ 
+	 if(tempCRC != ReciverCRC)//验证数据是否正确
+	 {
+	//  for(int i = 0;i < 1024;++i)
+	//  {
+	//   if(i %16  == 0)
+	//   {
+	//    printf("\r\n");
+	//    printf("%8.8x: ",StartAddr+i);
+	//   }
+	//   printf("%2.2X ",*(data + 3 + i));
+	//  } 
+		*length = packet_size;
+		//printf("crc error ..\r\n"); 
+		
+		return -2;
+	 }
+		
+		
+		
+		
     *length = packet_size;
     return 0;
 }
@@ -231,14 +255,14 @@ int32_t Ymodem_Receive (uint8_t *buf)
                         //数据包
                         else
                         {
-								//把接收到的数据刷入到FLASH
-								//iap_write_appbin(FlashDestination,(u8 *)buf_ptr,packet_length);
-								iap_write_appbin(FlashDestination,(u8 *)(packet_data + PACKET_HEADER),packet_length);
-								FlashDestination += packet_length;
-								//数据同样一份刷入到外部flash
-								//EN25Q256_Write((u8 *)(packet_data + PACKET_HEADER), FlashSource, packet_length);
-								//FlashSource += packet_length;
-								Send_Byte(ACK);
+													//把接收到的数据刷入到FLASH
+													//iap_write_appbin(FlashDestination,(u8 *)buf_ptr,packet_length);
+													iap_write_appbin(FlashDestination,(u8 *)(packet_data + PACKET_HEADER),packet_length);
+													FlashDestination += packet_length;
+													//数据同样一份刷入到外部flash
+													//EN25Q256_Write((u8 *)(packet_data + PACKET_HEADER), FlashSource, packet_length);
+													//FlashSource += packet_length;
+													Send_Byte(ACK);
                         }
                         packets_received ++;
                         session_begin = 1;
@@ -249,6 +273,10 @@ int32_t Ymodem_Receive (uint8_t *buf)
                 Send_Byte(CA);
                 Send_Byte(CA);
                 return -3;
+						case -2://已经添加重传机制
+								memset(packet_data,0,packet_length);
+								Send_Byte(NAK);
+								break;
             default:
                 if (session_begin > 0)
                 {
