@@ -2048,6 +2048,7 @@ unsigned char _6D_EPC_ReadMulti_Protcol(unsigned char RFSwitchoffFlag,unsigned s
     uint8_t LastCommandDivideFlag = 0;
     //  AntennaSwitch(RFAntenna[(1+g_bRFSwitch)%RFAntenna[0]]);
     RFPowerON(rfpower);/*RF-POWER开*/
+		//开载波时间
     Delay_ms(5);
     RepFlag = 1;
 	
@@ -2062,9 +2063,10 @@ Decode:
     {
         goto Over;
     }
-    Delay_us1(120);
+		//修改等待时间
+    Delay_us1(120-20);
     EPC_Return_Link_Bits = 16;
-	  Delay_Time =15*75*4-40;// good2
+	  Delay_Time =15*75*4-40+20;// good2
 	  GPIO_ResetBits(IFSW_CTR_PORT,IFSW_CTR_PIN);
     status = _6D_RN16_FM0Decode();
 	  GPIO_SetBits(IFSW_CTR_PORT,IFSW_CTR_PIN);
@@ -2135,9 +2137,9 @@ Decode:
         {
             EPC_RN[i] = EPC_Response_Recv_Buf[i];
         }
-        Delay_us(120);
+        Delay_us(120-50);
         _6D_ACK(EPC_RN);
-        Delay_Time = (2208-1967)*15*4;//4260+15*600; //
+        Delay_Time = (2208-1967)*15*4+50;//4260+15*600; //
 	    	Delay_us1(1800);
         EPC_Return_Link_Bits = 128;   //16*8
 		
