@@ -2137,10 +2137,10 @@ Decode:
         {
             EPC_RN[i] = EPC_Response_Recv_Buf[i];
         }
-        Delay_us(120-50);
-        _6D_ACK(EPC_RN);
-        Delay_Time = (2208-1967)*15*4+50;//4260+15*600; //
-	    	Delay_us1(1800);
+       // Delay_us(120);
+        _6D_ACK(EPC_RN);     
+	    	Delay_us1(1800-50);
+				Delay_Time = (2208-1967)*15*4+50;//4260+15*600; //
         EPC_Return_Link_Bits = 128;   //16*8
 		
         GPIO_ResetBits(IFSW_CTR_PORT,IFSW_CTR_PIN);	
